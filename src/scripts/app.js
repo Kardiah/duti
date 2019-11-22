@@ -1,0 +1,2 @@
+
+const lifeSens = 42;

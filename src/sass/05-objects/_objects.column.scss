@@ -1,0 +1,9 @@
+
+.o-left, .o-right {
+  height: auto;
+  min-height: 100px;
+
+  @include desktop {
+    width: 50% !important;
+  }
+}

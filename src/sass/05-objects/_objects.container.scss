@@ -1,21 +1,19 @@
 
 .o-container {
   display: flex;
-  justify-content: center;
-  height: auto;
+  flex-direction: row;
+  position: relative;
+  min-height: 250px;
+  padding: 0 3rem;
   margin-right: auto;
   margin-left: auto;
 
   @include mobile {
-    width: 100%;
-    padding: 0 3rem;
+    width: 100% !important;
     flex-direction: column;
   }
-  @include phablet {
-    width: 65%;
-    padding: 0 1rem;
-  }
-  @include desktop {
+  @include tablet {
+    width: 70% !important;
     flex-direction: row;
   }
 }
