@@ -1,0 +1,18 @@
+
+.u-section--hero {
+  height: 100vh !important;
+  h2 {
+    margin-top: 1.5rem;
+  }
+  p {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    color: lighten($color-dark, 50);
+  }
+  a {
+    margin-right: 1rem;
+  }
+  .c-headline {
+    margin-top: 6rem;
+  }
+}

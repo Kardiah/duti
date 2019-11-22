@@ -1,0 +1,24 @@
+
+@mixin ultra {
+   @media (min-width: #{$bkp-ultra}) { @content; }
+}
+
+@mixin wide {
+   @media (min-width: #{$bkp-wide}) { @content; }
+}
+
+@mixin desktop {
+   @media (min-width: #{$bkp-desktop}) { @content; }
+}
+
+@mixin tablet {
+   @media (min-width: #{$bkp-tablet}) { @content; }
+}
+
+@mixin phablet {
+   @media (min-width: #{$bkp-phablet}) { @content; }
+}
+
+@mixin mobile {
+   @media (min-width: #{$bkp-mobile}) { @content; }
+}

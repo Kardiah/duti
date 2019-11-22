@@ -1,0 +1,20 @@
+{
+  "name": "duti",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Kardiah/duti.git",
+  "author": "kardiah <winckler.p@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "babel": "babel src/scripts/app.js --watch --out-file public/scripts/app.js",
+    "pug": "pug src/pug/*.pug -w -o public",
+    "sass": "sass --no-source-map --watch --style compressed src/sass/main.scss:public/styles/main-min.css"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "pug": "^2.0.4",
+    "sass": "^1.23.7"
+  }
+}
