@@ -7,6 +7,7 @@ html(lang="fr")
     meta(name="viewport", content="width=device-width, initial-scale=1")
     link(rel="stylesheet", href="styles/main-min.css")
     link(rel="icon" href="assets/img/favicon.png")
+    link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous")
 
   body
 
@@ -22,18 +23,26 @@ html(lang="fr")
 
     h3 Take a moment to give us a feedback please :) 
 
-    label(for='wnr1') Yes.
-    input(type='radio', name='feed1', value='1')#wnr1
+    div(class="form-check")
+    label(class="form-check-label" for="exampleRadios1")  Yes
+    input(class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked)
+
+
+
+    div(class="form-check")
+    label(class="form-check-label" for="exampleRadios2")  No
+    input(class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option1" checked)    
+
+    div(class="form-check")
+    label(class="form-check-label" for="exampleRadios3")  Idk 
+    input(class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option1" checked)
     
 
-
-    label(for='wnr2') No.
-    input(type='radio', name='feed1', value='2')#wnr2
-
-
-    label(for='wnr3') What ever.
-    input(type='radio', name='feed1', value='3')#wnr3 
-
+    
+  
+    br
+    br
+    button(type="submit") OK.
     
 
     hr
