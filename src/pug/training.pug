@@ -13,22 +13,29 @@ html(lang="fr")
     h1 Banner
     hr
     br
-
-
-    #trainingList
-     select#propertyType.select.form-control.input(form='addProperty', name='propertyType')
-          option(value='x') -- Select --
-          option(value='x') Home
-          option(value='x') Condo
-          option(value='x') Single Family Home
-          option(value='x') Town House
-          option(value='x') City Apartment
-          option(value='x') Villa
-
-    br
+    p
+      i progress bar xp user ??? 
+    p
+      i Your training rank is : X
     br
 
-    .training
+    h1 Main
+    #mainTrainning
+
+      select#propertyType.select.form-control.input(form='addProperty', name='propertyType')
+          option(value='0', selected= true) -- Select --
+          option(value='1', selected= true) Internet Général
+          option(value='2', selected= true) Réseau sociaux
+          option(value='2', selected= true) Téléchargements
+          option(value='2', selected= true) CGU 
+          option(value='2', selected= true) Etc ...  
+
+      br
+      br
+
+
+      button Training ready !
+
 
 
     hr
@@ -45,5 +52,3 @@ html(lang="fr")
 
       
   script(src="main.js")
-
-          
