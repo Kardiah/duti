@@ -8,3 +8,5 @@ Prepare all the page i want to use for my presentation much more.
 
 
 Moreover all of this trying to fuck off all the page remains.
+
+Find the timer for my feedback
