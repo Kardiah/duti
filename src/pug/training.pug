@@ -22,6 +22,7 @@ html(lang="fr")
     h1 Main
     #mainTrainning
 
+      legend Select a category ? 
       select#propertyType.select.form-control.input(form='addProperty', name='propertyType')
           option(value='0', selected= true) -- Select --
           option(value='1', selected= true) Internet Général
@@ -33,8 +34,8 @@ html(lang="fr")
       br
       br
 
-
-      button Training ready !
+      a(href="exo-read.html")
+        button Training ready !
 
 
 
@@ -51,4 +52,4 @@ html(lang="fr")
           
 
       
-  script(src="main.js")
+  script(src="app.js")

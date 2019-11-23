@@ -1,3 +1,2 @@
-"use strict";
+const lifeSens = 42;
 
-var lifeSens = 42;

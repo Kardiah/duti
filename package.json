@@ -6,7 +6,7 @@
   "author": "kardiah <winckler.p@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "babel": "babel src/scripts/app.js --watch --out-file public/scripts/app.js",
+    "babel": "babel src/scripts/app.js --watch --out-file public/scripts/*.js",
     "pug": "pug src/pug/*.pug -w -o public",
     "sass": "sass --no-source-map --watch --style compressed src/sass/main.scss:public/styles/main-min.css"
   },

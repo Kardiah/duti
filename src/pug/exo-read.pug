@@ -18,17 +18,21 @@ html(lang="fr")
 
 
     h1 Main
-    #mainTrainning
-      br
-      br
-      p
-        i progress bar xp user ??? 
-      br
-      br
-      a(class='button' href='training.html') go training !
-      br
-      a(class='button' href='challenge.html') take a challenge !
+    #mainTraining
+      legend type in your user name :
+      input(type="name")
 
+      legend type in your email :
+      input(type='text')
+
+      legend type in your password : 
+      input(type="password" id="password")
+
+      br
+      button(type="button" id="conf") Submit
+
+      p(id="fail")
+      p(id="correct") 
     
 
     hr
@@ -44,4 +48,5 @@ html(lang="fr")
           
 
       
-  script(src="main.js")
+  script(src="scripts/app.js")
+  script(src="scripts/exo-read.js")
