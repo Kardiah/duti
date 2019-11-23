@@ -1,29 +1,10 @@
-# Foobar
+# What i will do ?
 
-Foobar is a Python library for dealing with word pluralization.
+Adding sounds and some effect animation to make this more interactive but still waiting for the design to know how can i use animation.
 
-## Installation
+Provide a backend or something ? Not so much time enough.
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Prepare all the page i want to use for my presentation much more.
 
-```bash
-pip install foobar
-```
 
-## Usage
-
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+Moreover all of this trying to fuck off all the page remains.
